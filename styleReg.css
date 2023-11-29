@@ -1,0 +1,59 @@
+body {
+    padding: 30px 30px;
+}
+html{
+   background:linear-gradient(to top left,rgb(223, 150, 223), rgb(84, 201, 209));
+}
+form{
+    background-color: rgb(29, 9, 102);
+    border: 2px solid rgb(29, 15, 2);
+    border-radius: 9px;
+    margin: 30px;
+}
+#heading{
+    padding: 10px;
+    background-color: rgb(14, 6, 85);
+    color: aliceblue;
+}
+
+ .formdesign {
+    font-size: 20px;
+ }
+
+ .formdesign input {
+    width: 70%;
+    padding: 12px 10px;
+    margin: 14px;
+    font-size: 15px;
+    background-color: rgb(238, 228, 217);
+    border-radius: 20px;
+}
+
+ .formerror {
+    color: red;
+}
+
+ #but {
+    border-radius: 10px;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    margin: 22px 20px;
+    background: linear-gradient(to bottom, rgb(23, 219, 23), rgb(47, 139, 47));
+    color: aliceblue;
+ }
+ #but:hover{
+   background-color: rgb(12, 68, 12);
+ }
+ #gender{
+    margin: 8px 0px 0px 20px;
+    color: rgb(235, 219, 198);
+ }
+ #countrycode{
+   margin: 8px 0px 0px 14px;
+   border-radius: 20px;
+   font-size: medium;
+   padding: 11px;
+   color: rgb(139, 113, 78);
+ }
+ 

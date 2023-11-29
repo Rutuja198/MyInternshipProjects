@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styleReg.css">
+</head>
+
+<body>
+         <div>
+         <form name="myForm" onsubmit="return validateForm()" method="post">
+            <h1 id="heading">Registration Form</h1>
+         <div class="formdesign" id="name">
+            <input type="text" name="fname" required placeholder="user name"><b><span class="formerror"> </span></b>
+         </div>
+ 
+         <div class="formdesign" id="email" >
+            <input type="email" name="femail" required placeholder="email"><b><span class="formerror"> </span></b>
+         </div>
+         <select class="formdesign" id="countrycode">
+             <option value="" disabled selected><i>Country Code</i></option>
+             <option value="">+91</option>
+             <option value="">1</option>
+             <option value="">2</option>
+         </select>
+ 
+         <div class="formdesign" id="phone" >
+             <input type="phone" name="fphone" required placeholder="contact number"><b><span class="formerror" ></span></b>
+         </div>
+ 
+         <div id="gender">Gender: 
+           <input type="radio" name="fgender" value="male"><label>Male</label>
+           <input type="radio" name="fgender" value="female"><label>Female</label>
+           <input type="radio" name="fgender" value="other"><label>Other</label>
+         </div>
+         
+         <div class="formdesign" id="pass">
+            <input type="password" name="fpass" required placeholder="password"><b><span class="formerror"></span></b>
+         </div>
+ 
+         <div class="formdesign" id="cpass">
+            <input type="password" name="fcpass" required placeholder="confirm password"><b><span class="formerror" ></span></b>
+         </div>
+ 
+         <input id="but" type="submit" value="Submit">
+
+        </form>
+      </div>
+</body>
+<script src="scriptReg.js"></script>
+
+</html>
